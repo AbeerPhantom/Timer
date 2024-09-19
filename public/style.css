@@ -1,0 +1,60 @@
+body {
+    width: 1000px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+}
+
+h1 {
+    display: inline-block;
+    background-color: rgb(205, 121, 121);
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(217, 171, 171);
+    cursor: pointer;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(124, 91, 91, 0.2);
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: lightgray;
+}
+
+.main {
+    border: 5px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    background-color: rgb(217, 217, 118);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.inputs input {
+    padding: 10px;
+    font-size: 18px;
+    width: 80px;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid black;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(59, 167, 255);
+}
+
+.inputs input:focus {
+    border-color: #1a60ab;
+}
